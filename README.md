@@ -66,7 +66,7 @@ Persistence– I used 'useEffect' and 'useState' together so that every time the
 Challenges I Faced
 
 Understanding how to update a nested array in state without mutating it directly. I kept getting bugs until I learned to use the spread operator to make a copy first.
-Figuring out when to use 'useEffect' – at first I didn't know why it was needed, but now I understand it runs after state changes as a side effect.
+Figuring out when to use 'useEffect' – at first, I didn't know why it was needed, but now I understand it runs after state changes as a side effect.
 Making the form dynamic (add/remove options) was tricky at first because I wasn't sure how to track which input changed. Using the index in the 'map' helped.
 
 
